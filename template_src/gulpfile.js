@@ -27,6 +27,7 @@ elixir(mix => {
             './node_modules/icheck/skins/square/blue.css',
         ])
        .copy('resources/assets/js/csrftoken.js','www/js/csrftoken.js')
+       .copy('resources/img/splash.png','www/img/')
        .copy('node_modules/font-awesome/fonts/*.*','www/fonts/')
        .copy('node_modules/ionicons/dist/fonts/*.*','www/fonts/')
        .copy('node_modules/admin-lte/bootstrap/fonts/*.*','www/fonts')
