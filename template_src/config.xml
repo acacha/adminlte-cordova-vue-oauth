@@ -71,6 +71,9 @@
     <platform name="browser">
         <preference name="SplashScreen" value="/img/splash.png" />
         <preference name="SplashScreenDelay" value="3000" />
-        <preference name="ShowSplashScreen" value="true" /> <!-- defaults to "true" -->
+        <preference name="ShowSplashScreen" value="true" />
+        <preference name="ShowSplashScreen" value="true" />
+        <preference name="SplashScreenWidth" value="2208" />
+        <preference name="SplashScreenHeight" value="2208" />
     </platform>
 </widget>
